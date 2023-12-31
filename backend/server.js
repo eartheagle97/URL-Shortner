@@ -16,10 +16,10 @@ app.use(cors({ origin: "http://localhost:3000" }));
 app.options("/api/shorten", cors());
 
 const dynamoDBClient = new DynamoDBClient({
-  region: "us-west-1",
+  region: "your-dynamodb-region",
   credentials: {
-    accessKeyId: "AKIA5UHRN5XV4Q4HFCM5",
-    secretAccessKey: "DrdgL7etjZAL7ffM03DNcRQmVj/AQk4iHtFQAtpf",
+    accessKeyId: "your-access-key-id",
+    secretAccessKey: "your-secret-access-key",
   },
 });
 
