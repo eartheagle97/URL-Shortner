@@ -93,8 +93,6 @@ A simple URL shortener application with a backend built using Node.js, Express, 
 - React
 - Axios for API requests
 
----
-
 ## Contributing
 
 Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback is highly appreciated!
